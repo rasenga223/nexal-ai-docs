@@ -19,22 +19,6 @@
               "index",
               "quickstart"
             ]
-          },
-          {
-            "group": "API reference",
-            "pages": [
-              "api-reference/introduction",
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          },
-          {
-            "group": "Development",
-            "pages": [
-              "development"
-            ]
           }
         ]
       }
@@ -55,8 +39,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
