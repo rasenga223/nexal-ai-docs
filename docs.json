@@ -1,68 +1,39 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Nexal AI",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6366F1",
+    "light": "#818CF8",
+    "dark": "#4F46E5"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quickstart"
             ]
           },
           {
-            "group": "Customization",
+            "group": "API reference",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
+              "api-reference/introduction",
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development"
             ]
           }
         ]
@@ -71,14 +42,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Blog",
+          "href": "https://nexalai.com/blog",
+          "icon": "newspaper"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Status",
+          "href": "https://nexalai.com/status",
+          "icon": "circle-check"
         }
       ]
     }
@@ -90,14 +61,18 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Blog",
+        "href": "https://nexalai.com/blog"
+      },
+      {
+        "label": "Contact",
+        "href": "https://nexalai.com/contact"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Sign Up",
+      "href": "https://nexalai.com/signup"
     }
   },
   "contextual": {
@@ -114,9 +89,72 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "x": "https://x.com/nexalai",
+      "github": "https://github.com/nexalai",
+      "linkedin": "https://linkedin.com/company/nexalai"
+    },
+    "copyright": "© 2025 Nexal AI, COCIVAI LLC Company. All rights reserved.",
+    "groups": [
+      {
+        "title": "Product",
+        "pages": [
+          {
+            "title": "Documentation",
+            "href": "/"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "pages": [
+          {
+            "title": "Blog",
+            "href": "https://nexalai.com/blog"
+          },
+          {
+            "title": "Careers",
+            "href": "https://nexalai.com/careers"
+          },
+          {
+            "title": "Contact Us",
+            "href": "https://nexalai.com/contact"
+          }
+        ]
+      },
+      {
+        "title": "Support",
+        "pages": [
+          {
+            "title": "Help Center",
+            "href": "https://nexalai.com/help"
+          },
+          {
+            "title": "Contact",
+            "href": "https://nexalai.com/contact"
+          },
+          {
+            "title": "Status",
+            "href": "https://nexalai.com/status"
+          },
+          {
+            "title": "Community",
+            "href": "https://nexalai.com/community"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "pages": [
+          {
+            "title": "Privacy Policy",
+            "href": "https://nexalai.com/privacy"
+          },
+          {
+            "title": "Terms of Service",
+            "href": "https://nexalai.com/terms"
+          }
+        ]
+      }
+    ]
   }
 }
