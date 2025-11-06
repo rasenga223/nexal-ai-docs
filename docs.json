@@ -17,7 +17,34 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart"
+              "quickstart",
+              "getting-started"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "chatting-with-ai",
+              "creating-images",
+              "creating-videos",
+              "working-with-documents",
+              "custom-ai-models",
+              "personas-and-tasks"
+            ]
+          },
+          {
+            "group": "Account & Billing",
+            "pages": [
+              "subscriptions-and-limits"
+            ]
+          },
+          {
+            "group": "Help & Support",
+            "pages": [
+              "tips-and-tricks",
+              "troubleshooting",
+              "privacy-and-security",
+              "glossary"
             ]
           }
         ]
