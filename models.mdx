@@ -1,13 +1,8 @@
 ---
-title: "Welcome"
-description: "Welcome to Nexal AI! Learn how to get started with your AI assistant on mobile and web."
+title: "Models"
+description: "Explore all available AI models on Nexal AI platform"
 ---
 
-<img src="/images/chat-entry.png" alt="Chat Entry" style={{borderRadius: '10px', width: '100%'}} />
-
-## Models
-
-See models available
 
 <table style={{width: '100%', tableLayout: 'fixed'}}>
   <thead>
@@ -199,17 +194,76 @@ See models available
 
 *And more...*
 
-## Learn more
+## Vision
 
-<CardGroup cols={3}>
-  <Card title="Get started" href="/quickstart" icon="rocket">
-    Download, install, and start building with Nexal AI in minutes
-  </Card>
-  <Card title="Changelog" href="/changelog" icon="clock">
-    Stay up to date with the latest features and improvements
-  </Card>
-  <Card title="Support" href="https://nexalai.com/help" icon="support">
-    For account and billing questions, email our support team
-  </Card>
-</CardGroup>
+Vision capabilities allow AI models to understand and analyze images. Models with vision support (indicated by 👁️ in the capabilities column) can:
 
+- Analyze and describe images
+- Extract text from images (OCR)
+- Answer questions about visual content
+- Understand charts, graphs, and diagrams
+- Process screenshots and documents
+
+Vision-enabled models are ideal for tasks like document analysis, image-based Q&A, and visual content understanding.
+
+## Tools
+
+Tools (also known as function calling) enable AI models to interact with external systems and perform actions beyond text generation. Models with tool support (indicated by 🔧 in the capabilities column) can:
+
+- Call external APIs and services
+- Execute code and calculations
+- Access real-time data
+- Perform structured data operations
+- Integrate with third-party applications
+
+Tool-enabled models are essential for building AI agents, automation workflows, and applications that require dynamic interactions with external systems.
+
+## Web Search
+
+Web search capabilities allow AI models to access real-time information from the internet, providing up-to-date answers and current data beyond their training knowledge.
+
+**Key features:**
+
+- **Real-time information**: Access the latest news, events, and data
+- **Current facts**: Get information that may have changed since the model's training
+- **Comprehensive results**: Search across multiple sources for accurate answers
+- **Citation support**: Models can provide sources for their information
+
+Web search is particularly useful for:
+- Current events and news
+- Real-time data (stock prices, weather, etc.)
+- Recent developments in technology, science, and other fields
+- Verifying information that may have changed
+
+When enabled, the model will automatically search the web when it needs current information to answer your questions accurately.
+
+## Context Window
+
+The context window represents the maximum number of tokens (words or word pieces) a model can process in a single conversation. This includes both your input and the model's output.
+
+**Why it matters:**
+
+- **Larger context windows** (1M, 2M) allow you to work with longer documents, maintain longer conversations, and process more information at once
+- **Smaller context windows** (128k, 200k) are more cost-effective and faster for shorter tasks
+
+Choose a model with an appropriate context window based on your use case:
+- **Short tasks**: 128k-200k is sufficient
+- **Document analysis**: 400k-1M recommended
+- **Long conversations or large documents**: 1M+ preferred
+
+## Model Parameters
+
+Model parameters refer to the size and complexity of the neural network. While not always directly visible, parameter count affects:
+
+- **Model capability**: Larger models generally have better reasoning and knowledge
+- **Response quality**: More parameters often mean more nuanced and accurate responses
+- **Speed**: Smaller models respond faster
+- **Cost**: Larger models typically cost more per token
+
+**Common parameter sizes:**
+
+- **Nano/Mini** (8B-24B): Fast, cost-effective, good for simple tasks
+- **Small/Medium** (24B-70B): Balanced performance and speed
+- **Large** (70B+): Best quality, slower, higher cost
+
+The parameter count is often reflected in the model name (e.g., "Llama 3.3 70B" has 70 billion parameters).
