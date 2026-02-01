@@ -50,6 +50,87 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Web",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "web-welcome",
+              "web-quickstart",
+              "web-models",
+              "web-pricing"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "web-chat",
+              "web-image",
+              "web-tools",
+              "web-personas",
+              "web-memories",
+              "web-rapid-mode",
+              "web-reasoning"
+            ]
+          },
+          {
+            "group": "Account & Billing",
+            "pages": [
+              "web-subscriptions-and-limits"
+            ]
+          },
+          {
+            "group": "Help & Support",
+            "pages": [
+              "web-troubleshooting",
+              "web-changelog",
+              "web-glossary"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Mobile",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "mobile-welcome",
+              "mobile-quickstart",
+              "mobile-models",
+              "mobile-pricing"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "mobile-chat",
+              "mobile-image",
+              "mobile-tools",
+              "mobile-personas",
+              "mobile-memories",
+              "mobile-rapid-mode",
+              "mobile-reasoning",
+              "mobile-apps"
+            ]
+          },
+          {
+            "group": "Account & Billing",
+            "pages": [
+              "mobile-subscriptions-and-limits"
+            ]
+          },
+          {
+            "group": "Help & Support",
+            "pages": [
+              "mobile-troubleshooting",
+              "mobile-changelog",
+              "mobile-glossary"
+            ]
+          }
+        ]
       }
     ],
     "global": {
