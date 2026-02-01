@@ -14,39 +14,9 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Welcome",
             "pages": [
-              "getting-started",
-              "quickstart",
-              "models",
-              "pricing"
-            ]
-          },
-          {
-            "group": "Features",
-            "pages": [
-              "chat",
-              "image",
-              "tools",
-              "personas",
-              "memories",
-              "rapid-mode",
-              "reasoning",
-              "apps"
-            ]
-          },
-          {
-            "group": "Account & Billing",
-            "pages": [
-              "subscriptions-and-limits"
-            ]
-          },
-          {
-            "group": "Help & Support",
-            "pages": [
-              "troubleshooting",
-              "changelog",
-              "glossary"
+              "getting-started"
             ]
           }
         ]
