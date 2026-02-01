@@ -1,186 +1,127 @@
 ---
 title: "Tools"
-description: "Learn about the tools available in Nexal AI that extend AI capabilities beyond text generation."
+description: "Learn about the tools that let the AI do more than just chat."
 ---
 
 ## What Are Tools?
 
-Tools extend the AI's capabilities beyond text generation, allowing it to perform specific actions and tasks. They enable the AI to interact with external systems, generate content, and execute functions that go beyond conversation.
+Tools let the AI do things beyond answering questions. It can search the web, generate images, create documents, set reminders - basically anything that requires an action.
 
 ## Available Tools
 
 ### Web Tools
 
 **Resume Generator**
-- Generate professional resumes from your information
-- Create formatted resume documents
-- Export in various formats
+- Turn your experience into a formatted resume
+- Export it when you're done
 
 **Image Generation**
-- Create images directly from chat using text descriptions
-- Generate visuals without leaving the conversation
-- Multiple style options available
+- Create images right in your chat
+- Just describe what you want
 
 **Document Generator**
-- Write and edit documents in DOCX format
-- Use a built-in document editor
-- Create reports, letters, proposals, and more
-- Format and structure documents within the chat interface
+- Write and edit documents (reports, letters, proposals, etc.)
+- Built-in editor for formatting
+- Export as DOCX
 
 **Memory**
-- Save important information that the AI can recall in future conversations
-- Build a persistent knowledge base for personalized interactions
-- The AI automatically recalls relevant memories when needed
+- The AI remembers things about you across conversations
+- You never have to repeat your preferences
 
 ### Mobile Tools
 
 **Image Generation**
-- Create images directly from chat using text descriptions
-- Generate visuals on the go
-- Access to multiple AI image models
+- Same as web - create images on the go
+- Multiple AI models to choose from
+
+**Document Generator**
+- Create and edit documents from your phone
+- All the same document types as web
 
 **Memory**
-- Save important information that the AI can recall in future conversations
-- Access saved information across sessions
-- Persistent across all your chats
+- Same memory system as web
+- Your preferences follow you everywhere
 
 **Reminder**
-- Schedule reminders and notifications for important tasks
-- Set specific dates and times
-- Choose repeat options (none, daily, weekly, monthly)
-- Receive push notifications when reminders are due
+- Set reminders with push notifications
+- One-time or repeating (daily, weekly, monthly)
+- Timezone support
 
 **Web Search**
-- Search the web for real-time information
-- Get current news, events, and data
-- Results are integrated directly into AI responses
-- Citations included for source verification
+- Get current information from the internet
+- Results come with sources
+- Good for news, weather, real-time data
 
 **Folder Access**
-- Reference files from your project folders in chat
-- Upload and organize documents, images, and files
-- The AI can read and analyze folder contents
+- Upload files to project folders
+- The AI can read and reference them in chat
 
 ## Using Tools
 
-### Automatic Tool Use
+Most of the time, you don't need to do anything special. Just describe what you want and the AI picks the right tool:
 
-The AI automatically selects the right tool based on your request. Just describe what you need:
+- "Create an image of a sunset" → Image generation
+- "Remember that my favorite color is blue" → Memory
+- "Remind me to call mom tomorrow at 3pm" → Reminder (mobile)
+- "What's the weather in Tokyo?" → Web search
 
-- "Create an image of a sunset over mountains" → Uses image generation
-- "Remember that my favorite color is blue" → Uses memory tool
-- "Remind me to call mom tomorrow at 3pm" → Uses reminder tool (mobile)
-- "What's the weather in Tokyo right now?" → Uses web search
+If you want to be explicit, type `/` in the chat and you'll see a list of available tools.
 
-### Manual Tool Selection
-
-To explicitly choose a tool, type `/` in the chat input:
+## Quick Triggers
 
 **On Web:**
-1. Type `/` in the chat input
-2. Browse available tools from the dropdown
-3. Select the tool you want to use
-4. Provide the required information
+- `!web` + space: Force web search for your message
+- `!rapid` + space: Use rapid mode (faster responses)
 
 **On Mobile:**
-1. Type `/` in the chat input
-2. Browse available tools from the dropdown
-3. Tap to select a tool
-4. The AI will guide you through using it
+- `@`: Pick a persona
+- `/`: Pick a tool
 
-### Tool Triggers
+## Memory Tool
 
-Quick triggers for common tools:
+Tell the AI something once, and it remembers forever (or until you delete it).
 
-**On Web:**
-- `!web` followed by space: Enable web search for your message
-- `!rapid` followed by space: Use rapid mode for faster response
+"Remember that I prefer Python over JavaScript"
 
-**On Mobile:**
-- `@persona_name`: Use a specific persona
-- `/tool_name`: Use a specific tool
+That's it. Next time you ask for code, it'll use Python without you having to specify.
 
-## Tool Details
+**Viewing memories:**
+- Mobile: Memories screen
+- Web: Settings → Memories
 
-### Memory Tool
+**Deleting memories:**
+Just swipe (mobile) or click (web) and delete. You can't edit them though - if something changes, delete the old one and tell the AI the new info.
 
-The memory tool helps the AI remember important information about you:
+## Reminder Tool (Mobile Only)
 
-**What to Save:**
-- Personal preferences
-- Important dates
-- Project details
-- Recurring topics you discuss
+Set reminders and get push notifications:
 
-**How It Works:**
-1. Tell the AI to remember something: "Remember that I prefer Python over JavaScript"
-2. The AI saves this to your memory
-3. In future conversations, the AI recalls relevant memories automatically
+"Remind me to submit the report on Friday at 2pm"
+"Set a daily reminder to take my vitamins at 8am"
 
-**Managing Memories:**
+You can see all your reminders in the Reminders section and mark them complete when you're done.
 
-**On Mobile:**
-1. Go to the Memories screen
-2. View all saved memories
-3. Delete memories you no longer need
+## Document Generator
 
-**On Web:**
-1. Access memories from Settings
-2. Review and manage saved information
+**On Web and Mobile:**
 
-### Reminder Tool (Mobile Only)
+Ask the AI to write something:
 
-Schedule reminders with push notifications:
+"Write a project proposal for a new mobile app"
+"Create a cover letter for a software engineer position"
 
-**Setting a Reminder:**
-- "Remind me to submit the report on Friday at 2pm"
-- "Set a reminder for my doctor's appointment next Tuesday"
+It generates the document, then you can edit it in the built-in editor and export it as DOCX when you're happy with it.
 
-**Reminder Options:**
-- One-time reminders
-- Repeating reminders (daily, weekly, monthly)
-- Custom dates and times
-- Timezone support
+## Resume Generator (Web Only)
 
-**Managing Reminders:**
-1. View all reminders in the Reminders section
-2. Mark reminders as complete
-3. Edit or delete upcoming reminders
+Tell the AI about your experience and it formats everything into a proper resume. You can review and edit before exporting.
 
-### Document Generator (Web Only)
+## A Few Tips
 
-Create professional documents directly in chat:
+Be specific when asking for something. "Create a professional email about the delay" is better than "write an email."
 
-**Document Types:**
-- Reports
-- Letters
-- Proposals
-- Essays
-- Meeting notes
-- And more
+If the first result isn't quite right, just ask for changes. The AI can iterate on its work.
 
-**How to Use:**
-1. Ask the AI to create a document: "Write a project proposal for..."
-2. The AI generates the document
-3. View and edit in the built-in editor
-4. Export as DOCX
-
-### Resume Generator (Web Only)
-
-Create professional resumes:
-
-1. Tell the AI about your experience and skills
-2. The AI generates a formatted resume
-3. Review and edit as needed
-4. Export and download
-
-## Tips for Tool Use
-
-- **Be specific**: Clear instructions get better results
-- **Provide context**: The more information you give, the better the output
-- **Iterate**: Ask for revisions if the first result isn't perfect
-- **Combine tools**: Use multiple tools in a single conversation for complex tasks
-
-<Tip>
-Tools are automatically selected by the AI based on your request, but you can also explicitly mention which tool you want to use for more control.
-</Tip>
+<Note>
+The AI usually picks the right tool automatically. You only need to explicitly choose one if you want to override its decision.
+</Note>
