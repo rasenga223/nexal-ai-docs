@@ -27,10 +27,10 @@
             "pages": [
               "chat",
               "image",
-              "video",
               "tools",
-              "custom-models",
-              "personas"
+              "personas",
+              "memories",
+              "apps"
             ]
           },
           {
