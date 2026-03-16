@@ -37,6 +37,7 @@
             "group": "Features",
             "pages": [
               "web-chat",
+              "web-folders",
               "web-image",
               "web-tools",
               "web-personas",
@@ -77,6 +78,7 @@
             "group": "Features",
             "pages": [
               "mobile-chat",
+              "mobile-folders",
               "mobile-image",
               "mobile-tools",
               "mobile-personas",
@@ -140,15 +142,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
