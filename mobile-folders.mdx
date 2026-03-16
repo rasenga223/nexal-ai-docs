@@ -40,17 +40,22 @@ Keep your chat list organized by moving conversations into specific folders.
 You can add documents and images to your folders directly from your mobile device.
 
 1. Open your folder in the **Folders** tab.
-2. Tap the **Upload** button.
+2. Tap the **+** button (floating action button).
 3. Choose to upload a **Document** or a **Photo** from your library.
 4. All uploaded files are instantly available for the AI to reference.
+
+**Supported File Formats:**
+- **Images:** JPG, JPEG, PNG, GIF, WEBP, SVG, BMP
+- **Documents:** PDF, DOC, DOCX, TXT, RTF, ODT, XLS, XLSX, PPT, PPTX
+- **Code & Data:** MD, MARKDOWN, CSV, HTML, HTM, XHTML, TEX, LATEX, ADOC, ASCIIDOC
 
 ## Folder Context in Chat
 
 When you are in a folder-based conversation:
 
-1. The AI is automatically aware of the **Folder ID**.
-2. It can use tools to **search your knowledge base** specifically within that folder.
-3. It can retrieve and analyze the specific files you've uploaded to that project.
+1. The AI is automatically aware of the folder you are in.
+2. When the AI uses the **Knowledge Base Search** tool, the application automatically passes the specific `folderId` to the tool's context.
+3. This ensures the AI only searches through, retrieves, and analyzes files that you've explicitly uploaded to that specific project folder—keeping the AI's focus relevant and secure.
 
 <Card title="Sync Across Devices" icon="sync">
   Folders created on mobile are instantly synced to the web app, and vice versa. Your entire project structure goes wherever you go!
